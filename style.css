@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    
+}
+#header-logo {
+    font-weight: 700;
+    font-size: 24px;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 24px;
+    margin: auto;
+}
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px; 
+}
